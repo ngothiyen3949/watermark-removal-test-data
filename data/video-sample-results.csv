@@ -1,0 +1,7 @@
+sample_id,mark_description,input_format,input_codec,resolution,fps,duration_seconds,frame_count,input_bytes,output_bytes,elapsed_seconds,observed_result
+sample-01,pale corner mark,MP4,H.264,640x360,24,4,96,817352,346353,6.968,"Mark remained visible; not removed"
+sample-02,centered text,MP4,H.264,640x360,24,4,96,827875,349860,13.014,"Mark was not visible in the output"
+sample-03,central logo,MP4,H.264,640x360,24,4,96,820128,349812,16.931,"Mark was not visible in the output"
+sample-04,semi-transparent mark,MP4,H.264,640x360,24,4,96,831682,354585,5.499,"Text was not visible; a noticeable blurred block remained in the selected area"
+sample-05,full-frame tiled marks,MP4,H.264,640x360,24,4,96,906259,384227,5.556,"Only one selected area was processed; repeated marks remained elsewhere and a noticeable blurred block remained in the selected area"
+
